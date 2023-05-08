@@ -1,5 +1,7 @@
 void main() {
-  studentGrade("Syful Islam Sharif", 80);
+  String studentName = "Syful Islam Sharif";
+  int testScore = 85;
+  studentGrade(studentName, testScore);
 }
 
 String showGrade(int score) {
