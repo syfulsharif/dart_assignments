@@ -1,6 +1,9 @@
 void main() {
+  //Task 1 create an object of the Person class and initialise
   Person sharif = Person(name: 'sharif', age: 32, address: 'ctg');
+  //Task 2 Call the sayHello() method
   sharif.sayHello();
+  //Task 3 Call the getAgeInMonths() metho
   print(sharif.getAgeInMonths());
 }
 
