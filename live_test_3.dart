@@ -1,6 +1,7 @@
 void main() {
   Person sharif = Person(name: 'sharif', age: 32, address: 'ctg');
   sharif.sayHello();
+  print(sharif.getAgeInMonths());
 }
 
 class Person {
