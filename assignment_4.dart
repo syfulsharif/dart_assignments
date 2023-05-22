@@ -16,7 +16,8 @@ class SavingsAccount extends Account {
 
   @override
   double withdraw(double amount) {
-    return this.balance += (this.balance - amount) * interstRate;
+    this.balance = this.balance - amount;
+    return this.balance = this.balance + (this.balance * this.interstRate);
   }
 
   SavingsAccount(int accountNumber, double balance, this.interstRate) {
@@ -46,8 +47,8 @@ class CurrentAccount extends Account {
 
 void main() {
   //Initializing Savings Account
-  SavingsAccount mySB = SavingsAccount(1101, 25000.0, .05);
-  mySB.deposit(5000);
+  SavingsAccount mySB = SavingsAccount(1101, 25000.0, 0.05);
+  mySB.deposit(5000.0);
   print(mySB.balance);
   mySB.withdraw(20000.0);
   print(mySB.balance);
