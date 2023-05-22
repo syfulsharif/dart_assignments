@@ -59,11 +59,3 @@ void main() {
   myCD.withdraw(20000.0);
   print(myCD.balance);
 }
-
-
-// ● Create an instance of the SavingsAccount class by providing values for the account
-// number, initial balance, and interest rate.
-// ● Use the instance to perform operations like depositing and withdrawing money.
-// ● Create an instance of the CurrentAccount class by providing values for the account
-// number, initial balance, and overdraft limit.
-// ● Use the instance to perform operations like depositing and withdrawing.
